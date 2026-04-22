@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+article{
+    padding: 1rem;
+}
+section.fondo{
+    background-image: url(https://f.radio-grpp.io/2024/01/12/071607_1524300.jpg?imgdimension=look);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 2rem;
+
+
+}
+
+header{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    height: 50vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
